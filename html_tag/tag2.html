@@ -7,8 +7,38 @@
 </head>
 <body>
     <form action="" method="">
-        <label for="id">아이디:</label>
-        <input type="text" id="id">
+        <fieldset>
+            <legend>기본 정보</legend>
+
+            <label for="id">아이디:</label>
+            <input type="text" id="id">    
+
+            <label for="pw">비밀번호:</label>
+            <input type="password" id="pw">
+        </fieldset>
+
+        <fieldset>
+            <legend>옵션 정보</legend>
+
+            <label for="id">가족관계:</label>
+            <input type="text" id="id">    
+
+            <label for="pw">생년월일:</label>
+            <input type="text" id="pw">
+        </fieldset>
+
+        <textarea rows="10" cols="20"></textarea>
+
+        <select>
+            <optgroup label="성별">
+                <option value="male">남자</option>
+                <option value="female" selected>여자</option>
+            </optgroup>
+        </select>
+
+        <input type="checkbox" checked>
+        <input type="text" maxlength="2" placeholder="나이">
+        <button disabled>안녕</button>
     </form>
     
 </body>
